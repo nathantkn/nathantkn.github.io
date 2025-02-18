@@ -1,1 +1,66 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nathan Trinh Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Nathan Trinh" />
+    <meta name="title" property="og:title" content="Hello there! I'm Nathan." />
+    <meta
+      name="description"
+      property="og:description"
+      content="Personal portfolio for Nathan Trinh, aspiring Software Engineer and Junior at UIC."
+    />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $(".navigation").load("/base/nav.html");
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+      <nav class="navigation"></nav>
+    </div>
+
+    <div class="container">
+      <h1 class="text-x-large">Hi! I'm Nathan.</h1>
+      <p class="paragraph-no-space">
+        I'm an aspiring Software Engineer and current a junior at UIC.
+      </p>
+      <ul>
+        <li>
+          <a href="./assets/Nathan_Trinh_resume.pdf" target="_blank">Resume</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/khoi-nguyen-trinh/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://www.github.com/nathantkn" target="_blank">GitHub</a>
+        </li>
+      </ul>
+      <h2 class="text-large">About Me</h2>
+      <p>
+        🏫 I am a Junior at the University of Illinois - Chicago, currently majoring in Computer Science with a concentration in Software Engineering. 
+      </p>
+      <p>
+        🌱 I was born in Hanoi, Vietnam; currently residing in Chicago, Illinois. I am fluent in English and Vietnamese, and I can speak some French.
+      </p>
+      <p>
+        💡 I'm deeply interested in contributing to real-life projects that have a positive impact, as well as opportunities to explore the fascinating potential of Artificial Intelligence.
+      </p>
+      <p>
+        📚 Apart from coding, I enjoy going to the gym, listening to music, and playing football.
+      </p>
+      <p>
+        This site can be found on
+        <a href="https://github.com/nathantkn/nathantkn.github.io" target="_blank">this GitHub repo</a>.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+:root {
+    --main-blue: #327699;
+    --bright-blue: #0386c8;
+  }
+  
+  .count-section {
+    padding-bottom: 96px;
+  }
+  
+  .count-row {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .count-label {
+    margin-bottom: 4px;
+  }
+  
+  .count-number {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  
+  .margin-left {
+    margin-left: 4px;
+  }
+  
+  .big-button {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .add-button {
+    color: #ffffff;
+    outline: var(--main-blue);
+    background-color: var(--main-blue);
+  }
+  
+  .add-button:hover {
+    color: #ffffff;
+    outline: var(--bright-blue);
+    background-color: var(--bright-blue);
+  }
+  
+  .minus-button {
+    outline: var(--main-blue);
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue);
+  }
+  
+  .minus-button:hover {
+    opacity: 0.6;
+    outline: var(--main-blue);
+    color: var(--main-blue);
+  }
+  
+  .delete-section {
+    margin-left: 16px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+  
+  .medium-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 150px;
+    padding-left: 16px;
+    margin-left: 16px;
+  }
+  
+  .medium-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 20px;
+  }
+  
+  .overview-section {
+    padding-top: 12px;
+  }
+  
+  .overview-table {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 16px;
+    font-size: 16px;
+  }
+  
+  .table th,
+  td {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+  
+  .section-name {
+    cursor: pointer;
+  }
+  
+  .section-name-button {
+    font: inherit;
+    padding: 0;
+    color: var(--bright-blue);
+  }
+  
+  .section-name-button:hover {
+    color: var(--bright-blue);
+    opacity: 0.6;
+  }
+  
+  .section-header {
+    width: 150px;
+  }
